@@ -1,0 +1,4 @@
+- insert:
+    - id: no-defensive-programming
+      name: '@local/no-defensive-programming'
+      config: {}

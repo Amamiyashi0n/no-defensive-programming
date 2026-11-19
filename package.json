@@ -1,0 +1,30 @@
+{
+  "name": "@local/no-defensive-programming",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "description": "Agent Skill for validating real behavior and avoiding unnecessary defensive programming.",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "icon": "./assets/icon.svg",
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "agents",
+    "assets"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

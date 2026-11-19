@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "No Defensive Programming",
+    "description": "Use representative cases to verify behavior and keep safeguards focused on demonstrated needs."
+  }
+}
