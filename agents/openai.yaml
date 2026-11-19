@@ -1,0 +1,13 @@
+interface:
+  display_name: 避免过度防御性编程
+  short_description: 从真实用例出发，用测试验证结论，定位失败并避免不必要的防御性代码
+  default_prompt: 使用 $no-defensive-programming 完成本次编程任务，验证实际结果，并根据预期行为分析出现的差异。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
